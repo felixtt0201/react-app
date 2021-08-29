@@ -1,0 +1,12 @@
+import { div } from 'prelude-ls';
+import React from 'react';
+import { Image } from './Thumb.style';
+
+// Thumb Component
+const Thumb = ({ image, movieId, clickable }) => (
+  <div>
+    <Image src={image} alt="movie-thumb" />
+  </div>
+);
+
+export default Thumb;
