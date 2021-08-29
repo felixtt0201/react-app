@@ -3,7 +3,7 @@ import React from 'react';
 // style
 import { Wrapper, Content } from './Grid.style';
 
-// props
+// Grid Component
 const Grid = ({ header, children }) => (
   <Wrapper>
     <h1>{header}</h1>
