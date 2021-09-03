@@ -1,5 +1,5 @@
 // Hooks
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 
 // API
 import API from '../API';
