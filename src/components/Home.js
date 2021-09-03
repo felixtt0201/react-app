@@ -24,7 +24,7 @@ const Home = () => {
   if (error) {
     return <div>Someting went wrong...</div>;
   }
-  console.log(state);
+
   return (
     <>
       {!searchTerm && state.results[0] ? (
